@@ -1,0 +1,18 @@
+@"
+# Hardhat files
+cache
+artifacts
+
+# Node
+node_modules
+package-lock.json
+
+# Environment variables
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+.vscode
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding utf8 -Force
